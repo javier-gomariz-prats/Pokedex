@@ -2,7 +2,6 @@
 
 /* Background and overall styling */
 body {
-    background: url('https://example.com/pokedex-background.jpg') no-repeat center center fixed;
     background-size: cover;
     font-family: 'Press Start 2P', cursive;
     color: #333;
