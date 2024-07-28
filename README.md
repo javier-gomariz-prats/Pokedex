@@ -1,30 +1,19 @@
-# React + TypeScript + Vite
+# Pokédex
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![GitHub Repo stars](https://img.shields.io/github/stars/your-username/your-repo-name?style=social) ![GitHub forks](https://img.shields.io/github/forks/your-username/your-repo-name) ![GitHub issues](https://img.shields.io/github/issues/your-username/your-repo-name) ![GitHub license](https://img.shields.io/github/license/your-username/your-repo-name)
 
-Currently, two official plugins are available:
+A simple Pokédex application built using React and TypeScript that allows users to explore Pokémon data fetched from the [PokéAPI](https://pokeapi.co). This application demonstrates the use of React with TypeScript (TSX) and the TanStack Query library for data fetching and state management.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Browse through Pokémon with pagination.
+- Search Pokémon by name.
+- View Pokémon details including images and descriptions.
+- Modal to display Pokémon details including an image and description.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies Used
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **React**: A JavaScript library for building user interfaces.
+- **TypeScript**: A superset of JavaScript that adds static typing.
+- **TanStack Query**: A powerful library for data fetching and caching.
+- **PokéAPI**: A RESTful API providing Pokémon data.
