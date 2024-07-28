@@ -15,3 +15,9 @@ A simple Pokédex application built using React and TypeScript that allows users
 - **TypeScript**: A superset of JavaScript that adds static typing.
 - **TanStack Query**: A powerful library for data fetching and caching.
 - **PokéAPI**: A RESTful API providing Pokémon data.
+  
+## Usage
+
+- **Search**: Use the search bar to find Pokémon by name.
+- **Pagination**: Navigate through Pokémon pages using the pagination buttons.
+- **Details**: Click on a Pokémon card to view detailed information in a modal.
