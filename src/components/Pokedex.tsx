@@ -86,7 +86,12 @@ export default function Pokedex() {
         <div className="pokedex-page">
             <div className="pokedex-container">
                 <h1>Pokédex</h1>
-                <h2>by Javier Gomariz</h2>
+                <h2>by Javier Gomariz <a href="https://github.com/javier-gomariz-prats/Pokedex" target="_blank"
+                                         rel="noopener noreferrer"
+                                         className="github-link">
+                    <i className="fab fa-github"></i>
+                </a></h2>
+
                 <input
                     type="text"
                     placeholder="Search Pokémon"
