@@ -1,30 +1,24 @@
-# React + TypeScript + Vite
+# Pokédex
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Pokédex application built using React and TypeScript that allows users to explore Pokémon data fetched from the [PokéAPI](https://pokeapi.co). This application demonstrates the use of React with TypeScript (TSX) and the TanStack Query library for data fetching and state management.
+![TypeScript](https://img.shields.io/badge/TypeScript-5.2.2-blue) ![React](https://img.shields.io/badge/React-18.3.3-blue) ![HTML](https://img.shields.io/badge/HTML-5-orange) ![CSS](https://img.shields.io/badge/CSS-3-blue) ![Node.js](https://img.shields.io/badge/Node.js-20.10-green)
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Browse through Pokémon with pagination.
+- Search Pokémon by name.
+- View Pokémon details including images and descriptions.
+- Modal to display Pokémon details including an image and description.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React**: A JavaScript library for building user interfaces.
+- **TypeScript**: A superset of JavaScript that adds static typing.
+- **TanStack Query**: A powerful library for data fetching and caching.
+- **PokéAPI**: A RESTful API providing Pokémon data.
+  
+## Usage
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **Search**: Use the search bar to find Pokémon by name.
+- **Pagination**: Navigate through Pokémon pages using the pagination buttons.
+- **Details**: Click on a Pokémon card to view detailed information in a modal.
