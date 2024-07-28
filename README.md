@@ -1,7 +1,5 @@
 # Pokédex
 
-![GitHub Repo stars](https://img.shields.io/github/stars/your-username/your-repo-name?style=social) ![GitHub forks](https://img.shields.io/github/forks/your-username/your-repo-name) ![GitHub issues](https://img.shields.io/github/issues/your-username/your-repo-name) ![GitHub license](https://img.shields.io/github/license/your-username/your-repo-name)
-
 A simple Pokédex application built using React and TypeScript that allows users to explore Pokémon data fetched from the [PokéAPI](https://pokeapi.co). This application demonstrates the use of React with TypeScript (TSX) and the TanStack Query library for data fetching and state management.
 
 ## Features
